@@ -4,6 +4,10 @@ public class Control {
 	private String palabreja = new String();
 	private int longitud, fallos = 0;
 	private boolean aciertos[];
+	
+	public void saludo() {
+		System.out.println("Hola");
+	}
 
 	public String getAciertos() {
 		StringBuilder palabra = new StringBuilder(palabreja);
